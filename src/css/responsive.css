@@ -1,0 +1,67 @@
+@media (max-width: 760px) {
+    html {
+        background-image: url(../images/bg-mobile.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 30%;
+    }
+
+    .informacoes {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .informacoes .ilustracao {
+        display: flex;
+        margin-top: 100px;
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .descricao{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .descricao .titulo {
+        font-size: 30px;
+    }
+
+    .descricao p {
+        font-size: 17px;
+        text-align: center;
+        margin: 0 50px;
+    }
+
+    .register {
+        width: 250px;
+        padding: 15px;
+        margin-top: 5px;
+    }
+
+    .footer {
+        margin-top: 60px;
+        justify-content: center;
+        align-items: center;
+        margin-right: 0px;
+    }
+
+    .footer i {
+        font-size: 28px;
+    }
+}

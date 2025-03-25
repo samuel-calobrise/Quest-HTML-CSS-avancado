@@ -1,0 +1,85 @@
+html {
+    background-image: url("../images/bg-desktop.svg");
+    background-repeat: no-repeat;
+    background-color: var(--violet);
+    font-family: poppins, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: left;
+}
+
+header .logo{
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    width: 13%;
+}
+
+.informacoes{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 75vh;
+    padding-top: 30px;
+    margin: 0 75px;
+}
+
+.informacoes .ilustracao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.descricao{
+    display: flex;
+    padding-top: 50px;
+    flex-direction: column;
+    padding-left: 50px;
+    color: white;
+}
+
+.descricao .titulo{
+    font-size: 40px;
+    font-weight: 500;
+    padding-bottom: 25px;
+}
+
+.descricao p{
+    font-size: 15px;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+
+.register {
+    padding: 20px;
+    border-radius:50px;
+    width: 200px;
+    font-size: 18px;
+    color: var(--violet);
+}
+
+.botao button:hover{
+    background-color: var(--soft-magenta);
+    color: white;
+    transition: 0.3s;
+}
+
+.footer{
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    margin-right: 50px;
+}
+
+.footer i{
+    font-size: 35px;
+    padding: 10px;
+    transition: 0.3s;
+    color: white;
+}
+
+.footer i:hover {
+    color: var(--soft-magenta);
+}
